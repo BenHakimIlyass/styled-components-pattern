@@ -1,7 +1,6 @@
 import React from "react";
 import "./styles.css";
 import styled from "./polished";
-// import styled from "styled-components";
 
 export default function App() {
   return (
@@ -12,12 +11,6 @@ export default function App() {
     </div>
   );
 }
-
-// const Button = styled("button")`
-//   background-color: tomato;
-//   border: none;
-//   border-radius: 8px;
-// `({ isBold: true, H200: true, isLarge: true });
 
 const Button = styled("button")`
   background-color: tomato;
